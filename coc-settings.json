@@ -1,0 +1,51 @@
+{
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "suggest.echodocSupport": true,
+
+  "suggest.autoTrigger": "always",
+
+  "suggest.floatEnable": true,
+
+  "coc.preferences.jumpCommand": "tabe",
+
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+
+    "typescript",
+
+    "typescriptreact",
+
+    "javascriptreact",
+    "json",
+    "css",
+    "markdown"
+  ],
+
+  "coc.preferences.hoverTarget": "float",
+
+  "signature.target": "float",
+
+  "snippets.extends": {
+    "typescript": ["typescriptreact"]
+  },
+
+  "explorer.width": 30,
+
+  "eslint.enable": true,
+
+  "explorer.icon.enableNerdfont": true,
+
+  "explorer.previewAction.onHover": false,
+
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expand", "open"],
+
+    "v": "open:vsplit"
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.useTabs": false,
+  "prettier.bracketSpacing": true
+}
