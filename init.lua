@@ -21,3 +21,5 @@ require "user.whichkey"
 require "user.autocommands"
 require "user.presence" -- Presence Discord
 require "user.coc"
+require "user.clangformat"
+require "user.ufo"

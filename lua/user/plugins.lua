@@ -96,6 +96,11 @@ return packer.startup(function(use)
 
   -- Git
   use "lewis6991/gitsigns.nvim"
+
+
+  -- Clang Formatter
+  use "rhysd/vim-clang-format"
+  use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
   -- Discord Presens
   use "andweeb/presence.nvim"
   -- Automatically set up your configuration after cloning packer.nvim
