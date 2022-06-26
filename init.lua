@@ -23,3 +23,4 @@ require "user.presence" -- Presence Discord
 require "user.coc"
 require "user.clangformat"
 require "user.ufo"
+require "user.tagbar"
